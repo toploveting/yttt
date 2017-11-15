@@ -1,0 +1,403 @@
+
+html{
+  max-width: 1280px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color:#ddd6af;
+}
+div.mainhead{
+  width: 1080px;
+}
+
+div.YTTT{
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+h1{
+  font-family: 'Open Sans', Orator Std, sans-serif;
+  font-size: 21px;
+  float: left;
+
+}
+h1.word1
+{
+  margin-left:500px;
+font-size: 40px;
+margin-top:60px;
+margin-bottom:-55px;
+color:#4d301d;
+}
+h1.word2
+{
+clear:both;
+  margin-left:400px;
+  font-size: 40px;
+  margin-bottom:-30px;
+  color:#4d301d;
+
+}
+h1.word3{
+  margin-top:70px;
+  margin-left: 40px;
+  font-size: 30px;
+}
+h2{
+  font-family: 'Open Sans', Orator Std, sans-serif;
+  font-size: 18px;
+}
+h2.class{
+  float:left;
+  margin-left:350px;
+  font-size: 20px;
+}
+h2.word4{
+  float:left;
+  margin-left:350px;
+  font-size: 30px;
+  margin-bottom:-20px;
+  margin-top:8px;
+  color:#4d301d;
+}
+h3.word3{
+  clear:both;
+  float:left;
+  margin-left:100px;
+  margin-top:50px;
+}
+h3.word4{
+
+  float:left;
+  margin-left:230px;
+  margin-top:50px;
+}
+h3.word5{
+
+  float:left;
+  margin-left:245px;
+  margin-top:46px;
+}
+h4{
+  font-size: 15px;
+  font-family: 'Open Sans', Orator Std, sans-serif;
+
+}
+h4.word1{
+  font-size: 20px;
+    font-family:Tekton Pro;
+line-height:5px;
+}
+h4.word2{
+  font-size: 17px;
+    font-family:Tekton Pro;
+    line-height:25px;
+}
+
+h4.word3{
+  font-size: 17px;
+    font-family:Tekton Pro;
+    line-height:30px;
+}
+h4.word4{
+  font-size: 19px;
+    font-family:Tekton Pro;
+    margin-left: 320px;
+    color:#4d301d;
+
+}
+p.word6{
+clear:both;
+  float:left;
+  margin-left:430px;
+  margin-top:-75px;
+}
+p.word7{
+
+  float:left;
+  margin-left:430px;
+  margin-top:-40px;
+}
+.word8{
+
+  float:left;
+  margin-left:80px;
+  margin-top:-40px;
+}
+p.word9{
+  float:left;
+  margin-top:10px;
+  margin-left:-40px;
+
+}
+p.word10{
+
+  float:left;
+  margin-top:10px;
+  margin-left:-40px;
+}
+div.bt{
+  width: 1080px;
+}
+div.botton1{
+  clear:both;
+  float:left;
+  margin-top:-12px;
+  margin-left:910px;
+}
+div.botton2{
+  float:left;
+  margin-top:-10px;
+  margin-left:40px;
+}
+div.botton3{
+
+  float:left;
+  margin-top:-10px;
+  margin-left:40px;
+}
+
+div.search{
+
+ float:right;
+  margin-top:80px;
+
+}
+div.contact{
+
+  margin-top:20px;
+  width: 980px;
+  height: 20px;
+ font family:Arial ;
+ float: left;
+}
+/*下拉式選單*/
+ul { /* 取消ul預設的內縮及樣式 */
+        margin-left:10px;
+        margin-top:170px;
+        margin-bottom:30px;
+        padding: 0;
+        list-style: none;
+    }
+
+    ul.drop-down-menu {
+
+        display: inline-block;
+        font-family: 'Open Sans', Orator Std, sans-serif;
+
+        width: 1080px;
+        margin-top: 20px;
+    }
+
+    ul.drop-down-menu li {
+        position: relative;
+        white-space: nowrap;
+        border-right: #ccc 1px solid;
+        width: 265px;
+        text-align:center;
+        font-size: 18px;
+
+    }
+
+    ul.drop-down-menu > li:last-child {
+        border-right: none;
+
+    }
+
+    ul.drop-down-menu > li {
+        float: left; /* 只有第一層是靠左對齊*/
+    }
+
+     ul.drop-down-menu a {
+        background: rgba(100%,100%,100%,0.4);
+        color:#4d301d;
+        display: block;
+        padding: 0 60px;
+        text-decoration: none;
+        line-height: 35px;
+
+
+    }
+    ul.drop-down-menu a:hover { /* 滑鼠滑入按鈕變色*/
+        background-color: #b1a086;
+        color: #fff;
+    }
+    ul.drop-down-menu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
+        background-color: #b1a086;
+        color: #fff;
+    }
+    ul.drop-down-menu ul {
+
+        position: absolute;
+        z-index:99;
+        left: -1px;
+        top: 100%;
+       min-width: 180px;
+    }
+
+    ul.drop-down-menu ul li {
+        border-bottom: #ccc 1px solid;
+        font-size: 14px;
+    }
+
+    ul.drop-down-menu ul li:last-child {
+        border-bottom: none;
+    }
+
+        ul.drop-down-menu ul { /*隱藏次選單*/
+          display: none;
+            margin-top: 0px;
+            margin-left:0px;
+      }
+
+      ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
+          display: block;
+      }
+  /*下拉式選單*/
+  div.main{
+    float: none;
+  }
+div.bottom{
+clear:both;
+  float: left;
+  margin-left:25px;
+  margin-top:20px;
+}
+div.top{
+  margin-left: 10px;
+  float: left;
+  margin-top:20px;
+}
+div.acc{
+  float: left;
+  margin-left:10px;
+  margin-top:20px;
+}
+div.BI{
+  width: 450px;
+  height: 275px;
+  background-color: #d1c0a5;
+  float: left;
+  margin-left: 10px;
+  margin-top:45px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  padding-bottom: 40px;
+}
+p.BIP{
+  font-size: 20px;
+}
+div.CM{
+  width: 450px;
+  height: 255px;
+  background-color: #d1c0a5;
+float: left;
+margin-left:100px;
+margin-top:20px;
+padding: 20px;
+}
+div.CM.p{
+  font-family: 'Open Sans', Orator Std, sans-serif;
+}
+div.picture{
+  float:left;
+  margin-left:100px;
+  margin-top:20px;
+}
+div.picture2{
+  float:left;
+  margin-left:10px;
+margin-bottom:20px;
+}
+div.picture3{
+  float:left;
+  margin-left:100px;
+  margin-top:50px;
+
+}
+div.picture4{
+  float:left;
+  margin-left:20px;
+margin-top:50px;
+}
+div.contact{
+  float:left;
+  margin-left:945px;
+}
+
+div.picture9{
+
+  float:left;
+  margin-left:760px;
+  margin-top:-140px;
+  margin-bottom: 20px;
+}
+div.YTTT{
+  margin-top:30px;
+}
+
+.fb{
+  clear: both;
+  float:left;
+  margin-left:100px;
+  margin-top:20px;
+}
+.ig{
+  float:left;
+  margin-left:30px;
+  margin-top:20px;
+}
+.line{
+float:left;
+  margin-left:30px;
+  margin-top:20px;
+}
+.em{
+clear:both;
+  float:left;
+  margin-left:100px;
+  margin-top:20px;
+}
+.join{
+float:left;
+  margin-left:30px;
+  margin-top:20px;
+}
+.call{
+float:left;
+  margin-left:30px;
+  margin-top:20px;
+}
+#straight
+{
+  width:1px;
+  height:170px;
+  background-color:#a6937c;
+  float: left;
+  margin-left:100px;
+  margin-top:-100px;}
+  #straight1
+  {
+    width:1px;
+    height:170px;
+    background-color:#a6937c;
+    float: left;
+    margin-left:670px;
+    margin-top:-168px;}
+footer
+{
+  clear:both;
+  width:100%;
+  margin:0 auto;
+  height:20px;
+  background-color:#a6937c;
+  text-align:center;
+  padding-top:15px;
+  padding-bottom:15px;
+  font-size:12px;
+  font-family:Orator Std;
+  color:#2b2722;
+  margin-top:755px;
+}
